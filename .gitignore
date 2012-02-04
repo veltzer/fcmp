@@ -19,3 +19,4 @@ stamp-h1
 fcmp.lo
 fcmp.o
 libfcmp.la
+debian/
