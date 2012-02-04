@@ -1,0 +1,351 @@
+2000-11-03 23:28  streak
+
+	* bootstrap: Added copyright header
+
+2000-11-03 23:20  streak
+
+	* Makefile.am, bootstrap: Added bootstrap
+
+2000-11-02 21:24  streak
+
+	* ChangeLog, Makefile.in, NEWS, configure: Updated for 1.2.1
+	release
+
+2000-11-02 21:23  streak
+
+	* configure.in: Bumped version to 1.2.1
+
+2000-11-02 21:23  streak
+
+	* fcmp.spec: Use fcmp 1.2.1
+
+2000-11-02 21:22  streak
+
+	* Makefile.am: Bumped library revision for release
+
+2000-11-02 01:59  streak
+
+	* Makefile.in, aclocal.m4, config.h.in, configure, config.h.in,
+	configure: Updated
+
+2000-11-02 01:59  streak
+
+	* Makefile.am: Use AM_CFLAGS to set extra CFLAGS
+
+2000-11-02 01:57  streak
+
+	* configure.in: Check for libm
+
+2000-11-02 01:31  streak
+
+	* configure.in: Don't check for libc or libm
+
+2000-10-01 02:37  streak
+
+	* Makefile.am: Bumped library revision number
+
+2000-10-01 02:36  streak
+
+	* NEWS, ChangeLog, Makefile.in: Updated
+
+2000-10-01 02:34  streak
+
+	* ChangeLog, Makefile.in, config.h.in, configure, configure.in:
+	Bumped version to 1.2
+
+2000-10-01 02:33  streak
+
+	* Makefile.am, fcmp.spec: Added RPM spec file
+
+2000-10-01 01:56  streak
+
+	* Makefile.am: Added header Added fcmp.spec
+
+2000-10-01 01:40  streak
+
+	* fcmp.c: Include config.h if present
+
+2000-09-25 15:40  streak
+
+	* configure.in: Using AC_PROG_RANLIB is rendered obsolete by
+	AM_PROG_LIBTOOL
+
+2000-09-25 01:58  streak
+
+	* configure.in: Add -Wall and -Werror to CFLAGS only after
+	configure checks are done
+
+2000-09-25 00:22  streak
+
+	* configure.in: Check for libdl and libutil and add them to LIBS if
+	present.
+
+2000-09-19 15:50  streak
+
+	* NEWS: Updated
+
+2000-09-19 15:40  streak
+
+	* Makefile.am, Makefile.in: Added *~ *.bak to MOSTLYCLEANFILES
+
+2000-09-19 15:01  streak
+
+	* NEWS, aclocal.m4: Updated
+
+2000-09-19 15:00  streak
+
+	* config.h.in: Added file
+
+2000-09-19 14:59  streak
+
+	* Makefile.in, configure: Added files
+
+2000-04-10 22:10  streak
+
+	* configure.in: Use -Wall -Werror with gcc
+
+2000-03-07 04:11  streak
+
+	* README: Added example of failed == comparison
+
+2000-03-03 02:36  streak
+
+	* ChangeLog: Updated again for 1.1 release
+
+2000-03-03 02:35  streak
+
+	* AUTHORS, COPYING, COPYING.LIB, NEWS, README, THANKS, fcmp.3,
+	fcmp.c, fcmp.h: Re-renamed COPYING.LIB to COPYING, to satisfy
+	automake
+
+2000-03-03 02:24  streak
+
+	* ChangeLog: Updated for 1.1 release
+
+2000-03-03 02:24  streak
+
+	* NEWS: Updated for version 1.1
+
+2000-03-03 02:21  streak
+
+	* fcmp.3: Updated version and date for 1.1
+
+2000-03-03 02:17  streak
+
+	* README: Added fcmp-specific installation info
+
+2000-03-03 00:15  streak
+
+	* THANKS: Minor rewording
+
+2000-03-03 00:14  streak
+
+	* AUTHORS: Minor rewording.
+
+2000-03-02 22:30  streak
+
+	* ChangeLog: Updated
+
+2000-03-02 22:29  streak
+
+	* THANKS: Added file
+
+2000-03-02 22:22  streak
+
+	* ChangeLog: Updated
+
+2000-03-02 22:20  streak
+
+	* INSTALL: Added file
+
+2000-03-02 22:20  streak
+
+	* INSTALL: Removed file
+
+2000-03-02 22:18  streak
+
+	* AUTHORS, COPYING, COPYING.LIB, INSTALL, NEWS, README, fcmp.3,
+	fcmp.c, fcmp.h: Re-renamed COPYING to COPYING.LIB
+
+2000-03-02 22:12  streak
+
+	* AUTHORS: Minor rewording
+
+2000-03-02 21:22  streak
+
+	* Makefile.am: Use libtool versioning for shared library Install
+	header file and man page Include header file and man page in
+	distribution
+
+2000-03-02 21:21  streak
+
+	* configure.in: Bumped verision to 1.1
+
+2000-03-02 19:34  streak
+
+	* ChangeLog: Added file
+
+2000-03-02 19:24  streak
+
+	* Makefile: Removed file (now using autoconf)
+
+2000-03-02 19:23  streak
+
+	* Makefile.am, aclocal.m4, config.guess, config.sub, configure.in,
+	install-sh, ltconfig, ltmain.sh, missing, mkinstalldirs: Added
+	files
+
+2000-03-02 19:17  streak
+
+	* AUTHORS: Added file
+
+2000-03-02 18:52  streak
+
+	* INSTALL, NEWS: Renamed COPYING.LIB to COPYING
+
+2000-03-02 18:48  streak
+
+	* COPYING, COPYING.LIB, README: Renamed COPYING.LIB to COPYING
+
+2000-01-31 01:48  streak
+
+	* Makefile: Bumped version to 1.0.3
+
+2000-01-31 01:48  streak
+
+	* NEWS: Updated for 1.0.3 release.
+
+2000-01-31 01:44  streak
+
+	* INSTALL, NEWS: Documentation improvements
+
+2000-01-31 01:16  streak
+
+	* INSTALL, README: Added INSTALL file
+
+2000-01-31 01:08  streak
+
+	* COPYING, COPYING.LIB, NEWS, README: Renamed COPYING to
+	COPYING.LIB
+
+2000-01-30 22:49  streak
+
+	* ChangeLog, NEWS: Renamed ChangeLog to NEWS
+
+2000-01-28 14:16  streak
+
+	* ChangeLog: Updated for 1.0.2
+
+2000-01-28 13:56  streak
+
+	* README: Describe SHAREDCFLAGS Makefile variable Added compilation
+	example
+
+2000-01-28 13:49  streak
+
+	* Makefile: Added SHAREDCFLAGS variable to fix shared library
+	compilation on Solaris Added comments Bumped up RELEASENUMBER to 2
+
+2000-01-24 18:18  streak
+
+	* fcmp.h: Minor rewording.
+
+2000-01-24 18:17  streak
+
+	* fcmp.c: Changed PSCS to CSCS.
+
+2000-01-24 18:12  streak
+
+	* fcmp.3, README: Minor rewording
+
+2000-01-24 18:07  streak
+
+	* fcmp.3: Minor rewording.
+
+2000-01-24 18:04  streak
+
+	* fcmp.3, fcmp.3: Minor reformatting.
+
+2000-01-24 18:00  streak
+
+	* fcmp.3: Added affiliation.  Added homepage and mailing list info.
+	 Mention lack of C macro version.
+
+2000-01-24 17:59  streak
+
+	* ChangeLog: Updated.
+
+2000-01-24 17:59  streak
+
+	* README: Added homepage and mailing list info.  Mention future C
+	macro.	Expand on installation
+
+2000-01-24 17:11  streak
+
+	* README: Added Windows and MacOS installation instructions
+
+2000-01-24 17:07  streak
+
+	* README: Added example of using fcmp.
+
+2000-01-24 17:02  streak
+
+	* README: Added shared library installation instructions.  Made
+	clear installation instructions have only been tested on Red Hat
+	6.0.
+
+2000-01-24 16:22  streak
+
+	* fcmp.c: Updated copyright to 2000.  Fixed comment.
+
+2000-01-24 16:20  streak
+
+	* README, fcmp.3, fcmp.h: Updated copyright to 2000.
+
+2000-01-24 16:19  streak
+
+	* Makefile: Updated copyright to 2000 Updated patchlevel to 1 Fixed
+	shared library target
+
+1999-07-19 18:07  streak
+
+	* README: Added citation info for Priest's paper.
+
+1999-07-08 19:34  streak
+
+	* Makefile: Install man page.
+
+1999-07-08 18:00  streak
+
+	* fcmp.3: Added fcmp version Minor cleanup
+
+1999-07-08 17:53  streak
+
+	* fcmp.3: Added file
+
+1999-07-08 17:50  streak
+
+	* fcmp.h: Modified comment.
+
+1999-07-07 18:40  streak
+
+	* fcmp.h: Wrapped declaration in extern "C"
+
+1999-07-07 16:31  streak
+
+	* ChangeLog: Added changes for 1.0.1
+
+1999-07-07 16:30  streak
+
+	* README, TIMINGS, TODO: Removed file
+
+1999-07-07 16:20  streak
+
+	* COPYING, ChangeLog, Makefile, README, TIMINGS, TODO, fcmp.c,
+	fcmp.h: Imported sources
+
+1999-07-07 16:20  streak
+
+	* COPYING, ChangeLog, Makefile, README, TIMINGS, TODO, fcmp.c,
+	fcmp.h: Initial revision
+

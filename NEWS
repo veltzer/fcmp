@@ -1,0 +1,79 @@
+************************************************************************
+fcmp
+Copyright (c) 1998-2000 Theodore C. Belding
+University of Michigan Center for the Study of Complex Systems
+<mailto:Ted.Belding@umich.edu>
+<http://www-personal.umich.edu/~streak/>                
+
+This file is part of the fcmp distribution. fcmp is free software; you
+can redistribute and modify it under the terms of the GNU Library
+General Public License (LGPL), version 2 or later.  This software
+comes with absolutely no warranty. See the file COPYING for details
+and terms of copying.
+
+File: NEWS
+
+Description: history of major changes
+************************************************************************
+
+2000-11-04  Theodore C. Belding  <streak@umich.edu>
+
+* Released version 1.2.2
+* Added bootstrap script to generate configure script
+
+2000-11-02  Theodore C. Belding  <streak@umich.edu>
+
+* Released version 1.2.1
+* Minor configuration cleanup
+
+2000-10-01  Theodore C. Belding  <streak@umich.edu>
+
+* Released version 1.2
+* Added RPM spec file
+* Minor cleanups
+
+2000-09-19  Theodore C. Belding  <streak@umich.edu>
+
+* Added configure, config.h.in, and Makefile.in files to CVS
+repository, for those who don't have automake or autoconf.
+* Remove *~ *.bak in "make clean" target.
+
+20000303 Version 1.1:
+
+* Now using libtool, autoconf, and automake.
+* fcmp now uses libtool's versioning system for shared libraries.
+  The fcmp shared library's current interface number is now 2. From
+  now on, the name of the fcmp shared library will not reflect the 
+  release number of the fcmp package. For example, the shared library 
+  for this release (1.1) of fcmp is named libfcmp.so.2.0.0, not 
+  libfcmp.so.1.1.0.
+* Added AUTHORS, THANKS, and ChangeLog files.
+* Replaced INSTALL file with generic GNU INSTALL file; moved fcmp-
+  specific installation info to the README file.
+* Renamed COPYING.LIB to COPYING, to satisfy automake (fcmp is still 
+  under the LGPL).
+
+20000131 Version 1.0.3: 
+
+* Rearranged documentation to follow GNU coding standards.
+* Some documentation improvements.
+* No need to upgrade from previous releases.
+
+20000128 Version 1.0.2:
+
+* Added SHAREDCFLAGS variable to Makefile, to fix shared library
+  compilation problem on Solaris. (Harald H. Soleng)
+* Some documentation improvements.
+
+20000124 Version 1.0.1:
+
+* First public release.
+* Minor cleanups of documentation and Makefile.
+* Moved CVS tree to SourceForge <http://sourceforge.net>.
+* Added homepage and mailing list info to README.
+* Updated copyright to 2000.
+
+19990110 Version 1.0:
+
+* First release.
+

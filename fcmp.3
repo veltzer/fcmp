@@ -1,0 +1,79 @@
+.\" -*- nroff -*-
+.\" fcmp
+.\" Copyright (c) 1998-2000 Theodore C. Belding
+.\" University of Michigan Center for the Study of Complex Systems
+.\" <mailto:Ted.Belding@umich.edu>
+.\" <http://www-personal.umich.edu/~streak/>		
+.\"
+.\" This file is part of the fcmp distribution. fcmp is free software;
+.\" you can redistribute and modify it under the terms of the GNU Library
+.\" General Public License (LGPL), version 2 or later.  This software
+.\" comes with absolutely no warranty. See the file COPYING for details
+.\" and terms of copying.
+.\"
+.\" File: fcmp.3
+.\"
+.\" Description: fcmp man page
+.\"
+.TH FCMP 3 "3 March 2000" "fcmp 1.1"
+.SH NAME
+fcmp \- Safely compare floating-point numbers
+.SH SYNOPSIS
+.B #include "fcmp.h"
+.sp
+.BI "int fcmp(double " x1 ", double " x2 ", double " epsilon "); 
+.sp
+.B gcc files... -lfcmp
+.SH DESCRIPTION
+The \fBfcmp()\fP function compares the two floating-point numbers
+\fIx1\fP and \fIx2\fP, with a tolerance determined by \fIepsilon\fP.  
+.SH "RETURN VALUE"
+The \fBfcmp()\fP function returns -1, zero, or 1 if \fIx1\fP is less
+than, equal, or greater than \fIx2\fP, respectively, with a tolerance
+determined by \fIepsilon\fP.
+.SH BACKGROUND
+The \fBfcmp()\fP function implements Knuth's suggestions for safer
+comparisons of floating-point numbers. See the \fBfcmp\fP README file 
+for more information on how to use \fBfcmp\fP.
+.SH BUGS
+This package has not been fully tested on all platforms. 
+.sp
+A C macro version of \fBfcmp\fP is not yet available.
+.SH "SEE ALSO"
+The \fBfcmp\fP README file contains more information on how to use
+\fBfcmp\fP, including how to set \fIepsilon\fP.
+.sp
+Knuth's suggestions for safer floating-point comparison operators,
+which \fBfcmp\fP implements, can be found in:
+.sp
+Knuth, D. E. (1998). The Art of Computer Programming.
+Volume 2: Seminumerical Algorithms. 3rd ed. Addison-Wesley.
+Section 4.2.2, p. 233. ISBN 0-201-89684-2.
+.SH AUTHOR
+Copyright (C) 1998-2000 by Theodore C. Belding, University of Michigan
+Center for the Study of Complex Systems
+.sp
+<mailto:Ted.Belding@umich.edu>
+.sp
+<http://www-personal.umich.edu/~streak/>
+.sp
+The \fBfcmp\fP homepage is at <http://fcmp.sourceforge.net/>.
+.sp
+This file is part of the \fBfcmp\fP distribution. \fBfcmp\fP is free
+software; you can redistribute and modify it under the terms of the
+GNU Library General Public License (LGPL), version 2 or later.  This
+software comes with absolutely no warranty. See the file COPYING for
+details and terms of copying.
+.SH REPORTING BUGS
+To report a bug in fcmp, visit the \fBfcmp\fP bug tracking system on
+the web at
+.sp
+<http://sourceforge.net/bugs/?group_id=1799> 
+.sp
+or send an email to
+.sp
+<mailto:fcmp-bugs@lists.sourceforge.net> 
+.sp
+(the web page is the preferred method). Please give full details about
+the bug, including what fcmp version, platform, OS, and compiler you
+used.

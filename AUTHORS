@@ -1,0 +1,22 @@
+************************************************************************
+fcmp
+Copyright (c) 1998-2000 Theodore C. Belding
+University of Michigan Center for the Study of Complex Systems
+<mailto:Ted.Belding@umich.edu>
+<http://www-personal.umich.edu/~streak/>                
+
+This file is part of the fcmp distribution. fcmp is free software; you
+can redistribute and modify it under the terms of the GNU Library
+General Public License (LGPL), version 2 or later.  This software
+comes with absolutely no warranty. See the file COPYING for details
+and terms of copying.
+
+File: AUTHORS
+
+Description: Authors of fcmp
+************************************************************************
+
+fcmp was written by Theodore C. Belding <mailto:Ted.Belding@umich.edu>
+<http://www-personal.umich.edu/~streak/> at the University of Michigan
+Center for the Study of Complex Systems
+<http://pscs.physics.lsa.umich.edu/>.
