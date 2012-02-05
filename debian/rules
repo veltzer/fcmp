@@ -12,8 +12,6 @@
 %:
 	dh $@ 
 
-clean:
-	./clean.sh
 build:
 	./bootstrap
 	./configure
