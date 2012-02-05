@@ -63,3 +63,6 @@ include_HEADERS = fcmp.h
 man_MANS = fcmp.3
 EXTRA_DIST = $(include_HEADERS) $(man_MANS) fcmp.spec bootstrap
 MOSTLYCLEANFILES = *~ *.bak
+
+pkgconfigdir = $(libdir)/pkgconfig
+pkgconfig_DATA = fcmp.pc

@@ -22,3 +22,4 @@ dnl Checks for typedefs, structures, and compiler characteristics.
 dnl Checks for library functions.
 
 AC_OUTPUT(Makefile)
+AC_OUTPUT(fcmp.pc)
