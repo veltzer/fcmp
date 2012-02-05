@@ -19,6 +19,6 @@ stamp-h1
 fcmp.lo
 fcmp.o
 libfcmp.la
-debian/
 .pc/
 fcmp.pc
+debian/tmp
