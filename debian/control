@@ -1,6 +1,6 @@
 Source: fcmp
 Priority: extra
-Maintainer: Mark Veltzer <mark.veltzer@gmail.com>
+Maintainer: Mark Veltzer <mark@veltzer.net>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev
 Standards-Version: 3.9.2
 Section: libs
