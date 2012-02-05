@@ -55,5 +55,5 @@ available via the Info system.
 .SH AUTHOR
 fcmp was written by <upstream author>.
 .PP
-This manual page was written by Mark Veltzer <mark.veltzer@gmail.com>,
+This manual page was written by Mark Veltzer <mark@veltzer.net>,
 for the Debian project (and may be used by others).

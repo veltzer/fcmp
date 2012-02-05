@@ -11,7 +11,7 @@
 #                    <...>
 ### END INIT INFO
 
-# Author: Mark Veltzer <mark.veltzer@gmail.com>
+# Author: Mark Veltzer <mark@veltzer.net>
 
 # PATH should only include /usr/* if it runs after the mountnfs.sh script
 PATH=/sbin:/usr/sbin:/bin:/usr/bin
