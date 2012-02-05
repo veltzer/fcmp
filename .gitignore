@@ -26,3 +26,8 @@ debian/*.log
 debian/fcmp-dev/
 debian/fcmp1/
 debian/patches/
+debian/fcmp-dev.substvars
+debian/fcmp1.postinst.debhelper
+debian/fcmp1.postrm.debhelper
+debian/fcmp1.substvars
+debian/files
