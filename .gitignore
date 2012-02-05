@@ -23,3 +23,6 @@ libfcmp.la
 fcmp.pc
 debian/tmp
 debian/*.log
+debian/fcmp-dev/
+debian/fcmp1/
+debian/patches/
