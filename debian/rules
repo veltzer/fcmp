@@ -12,8 +12,9 @@
 %:
 	dh $@ 
 
-clean:
-	./clean.sh
+# this does not work for some reason
+#clean:
+#	./clean.sh
 
 build:
 	./bootstrap
