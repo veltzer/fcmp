@@ -20,3 +20,4 @@ fcmp.lo
 fcmp.o
 libfcmp.la
 debian/
+.pc/
