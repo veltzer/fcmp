@@ -22,3 +22,4 @@ libfcmp.la
 .pc/
 fcmp.pc
 debian/tmp
+debian/*.log
