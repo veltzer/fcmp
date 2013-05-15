@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo apt-get install libtool
+sudo apt-get install libtool automake
