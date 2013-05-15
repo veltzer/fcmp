@@ -1,0 +1,3 @@
+- create a debian package of this.
+- move the README file to README.md.
+- unite the README files in here.
