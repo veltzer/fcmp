@@ -31,3 +31,4 @@ debian/fcmp1.postinst.debhelper
 debian/fcmp1.postrm.debhelper
 debian/fcmp1.substvars
 debian/files
+compile
