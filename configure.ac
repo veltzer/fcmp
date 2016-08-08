@@ -1,6 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT(fcmp.c)
-AM_INIT_AUTOMAKE(fcmp, 1.2.2)
+AC_INIT([fcmp],[1.2.2])
+AC_CONFIG_SRCDIR([fcmp.c])
+AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS([config.h])
 
 dnl Checks for programs.
