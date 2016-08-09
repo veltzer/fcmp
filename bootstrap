@@ -21,8 +21,8 @@
 # Autoconf, Automake, and possibly Libtool installed in order to run
 # this script.
 
-# new systems
-cp /usr/share/libtool/build-aux/ltmain.sh .
-# old systems
-#cp /usr/share/libtool/config/ltmain.sh .
-aclocal && autoheader && automake --gnu --add-missing && autoconf
+ln -fs /usr/share/libtool/build-aux/ltmain.sh .
+aclocal
+autoheader
+automake --gnu --add-missing
+autoconf
