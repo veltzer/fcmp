@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/sh -eu
 
 # fcmp
 # Copyright (c) 1999-2000 Theodore C. Belding
