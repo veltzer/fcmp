@@ -68,4 +68,4 @@ MOSTLYCLEANFILES = *~ *.bak
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = fcmp.pc
 
-.DEFAULT_GOAL:=$(lib_LTLIBRARIES)
+.DEFAULT_GOAL=$(lib_LTLIBRARIES)
