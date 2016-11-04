@@ -1,5 +1,0 @@
----
-packages:
-        - name: libtool
-        - name: automake
-        - name: autoconf
