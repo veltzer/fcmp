@@ -20,6 +20,7 @@
 /fcmp.o
 /libfcmp.la
 /.pc/
+/COPYING
 /fcmp.pc
 /debian/tmp
 /debian/*.log
