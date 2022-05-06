@@ -1,0 +1,5 @@
+packages = [
+    "libtool",
+    "automake",
+    "autoconf",
+]
